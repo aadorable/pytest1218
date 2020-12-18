@@ -1,2 +1,0 @@
-[32mINFO    [0m root:apiLogin.py:25 开始发起登录请求，请求的参数是{'accounts': 'xueqing', 'pwd': '12345678'}，请求头是{'X-Requested-With': 'XMLHttpRequest'}
-[32mINFO    [0m root:apiLogin.py:27 响应的结果是{'msg': '密码错误', 'code': -4, 'data': ''}

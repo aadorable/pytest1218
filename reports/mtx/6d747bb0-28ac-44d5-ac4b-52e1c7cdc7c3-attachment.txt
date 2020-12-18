@@ -1,5 +1,0 @@
-[32mINFO    [0m root:apiReg.py:14 开始获取注册接口的url
-[32mINFO    [0m root:apiReg.py:16 注册接口的url是：http://10.8.4.129/mtx/index.php?s=/index/user/reg.html
-[32mINFO    [0m root:apiReg.py:25 开始发起注册请求，请求的参数是{'accounts': 'Lisa', 'pwd': 123456, 'type': 'username', 'is_agree_agreement': 1}，请求头是{'X-Requested-With': 'XMLHttpRequest'}
-[32mINFO    [0m root:apiReg.py:27 响应的结果是{'msg': '注册成功', 'code': 0, 'data': {'msg': '添加成功', 'code': 0, 'data': {'body_html': '', 'user_id': '122'}}}
-[32mINFO    [0m root:test_mtx_reg.py:57 数据库查询的数据为：(('Lisa', 'e760d1fb1014cab0f3a67800fa194b8a'),)

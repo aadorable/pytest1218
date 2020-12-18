@@ -1,2 +1,0 @@
-[32mINFO    [0m root:apiLogin.py:25 开始发起登录请求，请求的参数是{'accounts': '', 'pwd': '123456'}，请求头是{'X-Requested-With': 'XMLHttpRequest'}
-[32mINFO    [0m root:apiLogin.py:27 响应的结果是{'msg': '登录账号有误', 'code': -1, 'data': ''}
