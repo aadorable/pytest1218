@@ -1,0 +1,26 @@
+test_login:
+  test_login_001:
+    accounts: 'xueqing'
+    pwd: '123456'
+    exp: '登录成功'
+    ids: '正向用例'
+  test_login_002:
+    accounts: 'xueqing'
+    pwd: ''
+    exp: '密码格式 6~8 个字符'
+    ids: '逆向用例'
+  test_login_003:
+    accounts: ''
+    pwd: '123456'
+    exp: '登录账号有误'
+    ids: '逆向用例'
+  test_login_004:
+    accounts: 'xueqing'
+    pwd: '12345678'
+    exp: '密码错误'
+    ids: '逆向用例'
+  test_login_005:
+    accounts: 'luyuo'
+    pwd: '123456'
+    exp: '帐号不存在'
+    ids: '逆向用例'

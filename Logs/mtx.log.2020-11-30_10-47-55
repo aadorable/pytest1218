@@ -1,0 +1,33 @@
+2020-11-30 10:47:55,006 INFO [root] [apiLogin.py(login:27)] -响应的结果是{'msg': '密码格式 6~18 个字符之间', 'code': -2, 'data': ''}
+2020-11-30 10:47:55,015 INFO [root] [apiLogin.py(login:25)] -开始发起登录请求，请求的参数是{'accounts': '', 'pwd': '123456'}，请求头是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:47:55,062 INFO [root] [apiLogin.py(login:27)] -响应的结果是{'msg': '登录账号有误', 'code': -1, 'data': ''}
+2020-11-30 10:47:55,071 INFO [root] [apiLogin.py(login:25)] -开始发起登录请求，请求的参数是{'accounts': 'xueqing', 'pwd': '12345678'}，请求头是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:47:55,128 INFO [root] [apiLogin.py(login:27)] -响应的结果是{'msg': '密码错误', 'code': -4, 'data': ''}
+2020-11-30 10:47:55,136 INFO [root] [apiLogin.py(login:25)] -开始发起登录请求，请求的参数是{'accounts': 'luyou', 'pwd': '123456'}，请求头是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:47:55,194 INFO [root] [apiLogin.py(login:27)] -响应的结果是{'msg': '帐号不存在', 'code': -3, 'data': ''}
+2020-11-30 10:47:55,202 INFO [root] [apiOrder.py(__init__:15)] -开始获取下订单接口的url
+2020-11-30 10:47:55,203 INFO [root] [apiOrder.py(__init__:17)] -下订单接口的url是：http://10.8.4.129/mtx/index.php?s=/index/buy/add.html
+2020-11-30 10:47:55,203 INFO [root] [apiLogin.py(__init__:14)] -开始获取登录接口的url
+2020-11-30 10:47:55,203 INFO [root] [apiLogin.py(__init__:16)] -登录接口的url是：http://10.8.4.129/mtx/index.php?s=/index/user/login.html
+2020-11-30 10:47:55,203 INFO [root] [apiLogin.py(login_success:40)] -开始发起登录请求，请求的参数是{'accounts': 'xueqing', 'pwd': '123456'}，请求头是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:47:55,261 INFO [root] [apiLogin.py(login_success:42)] -响应的结果是{'msg': '登录成功', 'code': 0, 'data': {'body_html': ''}}
+2020-11-30 10:47:55,262 INFO [root] [apiOrder.py(order:33)] -开始发起下订单请求，请求的参数是{'goods_id': 8, 'stock': 1, 'buy_type': 'goods', 'address_id': 51, 'payment_id': 1, 'spec': ''}，请求头是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:47:55,328 INFO [root] [apiOrder.py(order:35)] -响应的结果是{'msg': '提交成功', 'code': 0, 'data': {'order': {'id': '136', 'order_no': '20201130184753120630', 'user_id': '89', 'user_note': '', 'express_id': '0', 'express_number': '', 'payment_id': '1', 'status': '1', 'pay_status': '0', 'extension_data': '', 'buy_number_count': '1', 'increase_price': '0.00', 'preferential_price': '0.00', 'price': '356.00', 'total_price': '356.00', 'pay_price': '0.00', 'refund_price': '0.00', 'returned_quantity': '0', 'client_type': 'pc', 'order_model': '0', 'pay_time': '0', 'confirm_time': '1606733273', 'delivery_time': '0', 'cancel_time': '0', 'collect_time': '0', 'close_time': '0', 'comments_time': '0', 'is_comments': '0', 'user_is_comments': '0', 'is_delete_time': '0', 'user_is_delete_time': '0', 'add_time': '1606733273', 'upd_time': '0'}, 'jump_url': 'http://10.8.4.129/mtx/index.php?s=/index/order/pay/id/136.html'}}
+2020-11-30 10:47:55,332 INFO [root] [apiLogin.py(__init__:14)] -开始获取登录接口的url
+2020-11-30 10:47:55,332 INFO [root] [apiLogin.py(__init__:16)] -登录接口的url是：http://10.8.4.129/mtx/index.php?s=/index/user/login.html
+2020-11-30 10:47:55,332 INFO [root] [apiLogin.py(login_success:40)] -开始发起登录请求，请求的参数是{'accounts': 'xueqing', 'pwd': '123456'}，请求头是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:47:55,379 INFO [root] [apiLogin.py(login_success:42)] -响应的结果是{'msg': '登录成功', 'code': 0, 'data': {'body_html': ''}}
+2020-11-30 10:47:55,380 INFO [root] [apiOrder.py(__init__:15)] -开始获取下订单接口的url
+2020-11-30 10:47:55,380 INFO [root] [apiOrder.py(__init__:17)] -下订单接口的url是：http://10.8.4.129/mtx/index.php?s=/index/buy/add.html
+2020-11-30 10:47:55,380 INFO [root] [apiOrder.py(order:33)] -开始发起下订单请求，请求的参数是{'goods_id': 8, 'stock': 1, 'buy_type': 'goods', 'address_id': 51, 'payment_id': 1, 'spec': ''}，请求头是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:47:55,444 INFO [root] [apiOrder.py(order:35)] -响应的结果是{'msg': '提交成功', 'code': 0, 'data': {'order': {'id': '137', 'order_no': '20201130184753562707', 'user_id': '89', 'user_note': '', 'express_id': '0', 'express_number': '', 'payment_id': '1', 'status': '1', 'pay_status': '0', 'extension_data': '', 'buy_number_count': '1', 'increase_price': '0.00', 'preferential_price': '0.00', 'price': '356.00', 'total_price': '356.00', 'pay_price': '0.00', 'refund_price': '0.00', 'returned_quantity': '0', 'client_type': 'pc', 'order_model': '0', 'pay_time': '0', 'confirm_time': '1606733273', 'delivery_time': '0', 'cancel_time': '0', 'collect_time': '0', 'close_time': '0', 'comments_time': '0', 'is_comments': '0', 'user_is_comments': '0', 'is_delete_time': '0', 'user_is_delete_time': '0', 'add_time': '1606733273', 'upd_time': '0'}, 'jump_url': 'http://10.8.4.129/mtx/index.php?s=/index/order/pay/id/137.html'}}
+2020-11-30 10:47:55,763 INFO [root] [apiReg.py(__init__:14)] -开始获取注册接口的url
+2020-11-30 10:47:55,763 INFO [root] [apiReg.py(__init__:16)] -注册接口的url是：http://10.8.4.129/mtx/index.php?s=/index/user/reg.html
+2020-11-30 10:47:55,817 INFO [root] [apiReg.py(reg:25)] -开始发起注册请求，请求的参数是{'accounts': 'Lisa', 'pwd': 123456, 'type': 'username', 'is_agree_agreement': 1}，请求头是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:47:55,858 INFO [root] [apiReg.py(reg:27)] -响应的结果是{'msg': '注册成功', 'code': 0, 'data': {'msg': '添加成功', 'code': 0, 'data': {'body_html': '', 'user_id': '122'}}}
+2020-11-30 10:47:55,860 INFO [root] [test_mtx_reg.py(test_reg_success:57)] -数据库查询的数据为：(('Lisa', 'e760d1fb1014cab0f3a67800fa194b8a'),)
+2020-11-30 10:47:55,864 INFO [root] [apiReg.py(reg:25)] -开始发起注册请求，请求的参数是{'accounts': '#$%', 'pwd': '123456', 'type': 'username', 'is_agree_agreement': '1'}，请求头是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:47:55,911 INFO [root] [apiReg.py(reg:27)] -响应的结果是{'msg': '用户名格式由 字母数字下划线 2~18 个字符', 'code': -2, 'data': ''}
+2020-11-30 10:47:55,919 INFO [root] [apiReg.py(reg:25)] -开始发起注册请求，请求的参数是{'accounts': 'xueqing', 'pwd': '123456', 'type': 'username', 'is_agree_agreement': '1'}，请求头是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:47:55,967 INFO [root] [apiReg.py(reg:27)] -响应的结果是{'msg': '账号已存在', 'code': -10, 'data': ''}
+2020-11-30 10:47:55,978 INFO [root] [apiReg.py(reg:25)] -开始发起注册请求，请求的参数是{'accounts': 'data', 'pwd': '123456', 'type': 'username11', 'is_agree_agreement': '1'}，请求头是{'X-Requested-With': 'XMLHttpRequest'}

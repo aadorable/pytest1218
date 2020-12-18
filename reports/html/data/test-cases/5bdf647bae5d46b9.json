@@ -1,0 +1,133 @@
+{
+  "uid" : "5bdf647bae5d46b9",
+  "name" : "成功下单的测试用例",
+  "fullName" : "test_case.test_mtx_order.TestOrder#test_order",
+  "historyId" : "b47ae45cb5f51f9969b736ef7d5dbc5f",
+  "time" : {
+    "start" : 1606704475263,
+    "stop" : 1606704475328,
+    "duration" : 65
+  },
+  "description" : "\n        测试下订单接口\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    测试下订单接口\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1606704474828,
+      "stop" : 1606704474898,
+      "duration" : 70
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1606704475203,
+      "stop" : 1606704475262,
+      "duration" : 59
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        测试下订单接口\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cf6b96bcd942dd12",
+      "name" : "log",
+      "source" : "cf6b96bcd942dd12.txt",
+      "type" : "text/plain",
+      "size" : 1824
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1606704475329,
+      "stop" : 1606704475329,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "下单成功"
+  }, {
+    "name" : "feature",
+    "value" : "下单功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_mtx_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOrder"
+  }, {
+    "name" : "host",
+    "value" : "wuxueqingdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "31507-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_mtx_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "☝缺陷跟踪列表☝",
+    "url" : "https://blog.csdn.net/adorable_/article/details/110087878",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5bdf647bae5d46b9.json",
+  "parameterValues" : [ ]
+}

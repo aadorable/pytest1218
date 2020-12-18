@@ -1,0 +1,133 @@
+{
+  "uid" : "18612abea643f009",
+  "name" : "注册成功的测试用例",
+  "fullName" : "test_case.test_mtx_reg.TestReg#test_reg_success",
+  "historyId" : "dfde2db283d21b4ed559cf670940ec86",
+  "time" : {
+    "start" : 1606704475768,
+    "stop" : 1606704475861,
+    "duration" : 93
+  },
+  "description" : "关于注册成功的测试用例",
+  "descriptionHtml" : "<p>关于注册成功的测试用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1606704474828,
+      "stop" : 1606704474898,
+      "duration" : 70
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1606704475763,
+      "stop" : 1606704475767,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "关于注册成功的测试用例",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bfdcf8f591faca6e",
+      "name" : "log",
+      "source" : "bfdcf8f591faca6e.txt",
+      "type" : "text/plain",
+      "size" : 694
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1606704476031,
+      "stop" : 1606704476031,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "注册功能"
+  }, {
+    "name" : "story",
+    "value" : "注册成功"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_mtx_reg"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestReg"
+  }, {
+    "name" : "host",
+    "value" : "wuxueqingdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "31507-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_mtx_reg"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "☝缺陷跟踪列表☝",
+    "url" : "https://blog.csdn.net/adorable_/article/details/110087878",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "18612abea643f009.json",
+  "parameterValues" : [ ]
+}

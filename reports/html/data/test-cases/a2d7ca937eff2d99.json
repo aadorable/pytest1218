@@ -1,0 +1,151 @@
+{
+  "uid" : "a2d7ca937eff2d99",
+  "name" : "登录的测试用例",
+  "fullName" : "test_case.test_mtx_login.TestLogin#test_login",
+  "historyId" : "a8353ff17b4b67fe750d302884ee60dc",
+  "time" : {
+    "start" : 1606704475016,
+    "stop" : 1606704475064,
+    "duration" : 48
+  },
+  "description" : "关于登录的一些测试用例",
+  "descriptionHtml" : "<p>关于登录的一些测试用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1606704474828,
+      "stop" : 1606704474898,
+      "duration" : 70
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1606704474898,
+      "stop" : 1606704474900,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "关于登录的一些测试用例",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a1519fba69aa71da",
+      "name" : "登录接口的测试数据",
+      "source" : "a1519fba69aa71da.csv",
+      "type" : "text/csv",
+      "size" : 247
+    }, {
+      "uid" : "4eb0f0ea16739475",
+      "name" : "log",
+      "source" : "4eb0f0ea16739475.txt",
+      "type" : "text/plain",
+      "size" : 279
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1606704475199,
+      "stop" : 1606704475199,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录功能"
+  }, {
+    "name" : "story",
+    "value" : "登录的参数：正向和逆向"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_mtx_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "wuxueqingdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "31507-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_mtx_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "accounts",
+    "value" : "''"
+  }, {
+    "name" : "exp",
+    "value" : "'登录账号有误'"
+  }, {
+    "name" : "ids",
+    "value" : "'逆向用例'"
+  }, {
+    "name" : "pwd",
+    "value" : "'123456'"
+  } ],
+  "links" : [ {
+    "name" : "https://blog.csdn.net/adorable_/article/details/110087878",
+    "url" : "https://blog.csdn.net/adorable_/article/details/110087878",
+    "type" : "link"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a2d7ca937eff2d99.json",
+  "parameterValues" : [ "''", "'登录账号有误'", "'逆向用例'", "'123456'" ]
+}

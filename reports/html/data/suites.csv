@@ -1,0 +1,18 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Nov 30 10:47:55 CST 2020","Mon Nov 30 10:47:55 CST 2020","93","test_case","test_mtx_reg","TestReg","","","注册成功的测试用例","关于注册成功的测试用例"
+"passed","Mon Nov 30 10:47:55 CST 2020","Mon Nov 30 10:47:55 CST 2020","58","test_case","test_mtx_login","TestLogin","","","登录的测试用例","关于登录的一些测试用例"
+"passed","Mon Nov 30 10:47:55 CST 2020","Mon Nov 30 10:47:55 CST 2020","314","test_case","test_mtx_pay","TestPay","","","支付成功的测试用例","
+        支付的测试用例
+        :return:
+        "
+"passed","Mon Nov 30 10:47:54 CST 2020","Mon Nov 30 10:47:54 CST 2020","54","test_case","test_mtx_login","TestLogin","","","登录的测试用例","关于登录的一些测试用例"
+"passed","Mon Nov 30 10:47:54 CST 2020","Mon Nov 30 10:47:55 CST 2020","46","test_case","test_mtx_login","TestLogin","","","登录的测试用例","关于登录的一些测试用例"
+"passed","Mon Nov 30 10:47:55 CST 2020","Mon Nov 30 10:47:56 CST 2020","47","test_case","test_mtx_reg","TestReg","","","注册失败的测试用例",""
+"passed","Mon Nov 30 10:47:55 CST 2020","Mon Nov 30 10:47:55 CST 2020","49","test_case","test_mtx_reg","TestReg","","","注册失败的测试用例",""
+"passed","Mon Nov 30 10:47:55 CST 2020","Mon Nov 30 10:47:55 CST 2020","65","test_case","test_mtx_order","TestOrder","","","成功下单的测试用例","
+        测试下订单接口
+        :return:
+        "
+"passed","Mon Nov 30 10:47:55 CST 2020","Mon Nov 30 10:47:55 CST 2020","47","test_case","test_mtx_reg","TestReg","","","注册失败的测试用例",""
+"passed","Mon Nov 30 10:47:55 CST 2020","Mon Nov 30 10:47:55 CST 2020","58","test_case","test_mtx_login","TestLogin","","","登录的测试用例","关于登录的一些测试用例"
+"passed","Mon Nov 30 10:47:55 CST 2020","Mon Nov 30 10:47:55 CST 2020","48","test_case","test_mtx_login","TestLogin","","","登录的测试用例","关于登录的一些测试用例"

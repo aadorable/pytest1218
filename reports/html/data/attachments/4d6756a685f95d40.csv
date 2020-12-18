@@ -1,0 +1,4 @@
+username,password,type,is_agree_agreement,exp,ids
+#$%,123456,username,1,用户名格式由 字母数字下划线 2~18 个字符,逆向用例
+xueqing,123456,username,1,账号已存在,逆向用例
+data,123456,username11,1,注册类型有误,逆向用例

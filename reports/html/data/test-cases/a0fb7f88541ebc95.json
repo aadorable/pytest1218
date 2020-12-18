@@ -1,0 +1,156 @@
+{
+  "uid" : "a0fb7f88541ebc95",
+  "name" : "注册失败的测试用例",
+  "fullName" : "test_case.test_mtx_reg.TestReg#test_reg_fail",
+  "historyId" : "6302b40095adaba0bd604d5f90e2bba5",
+  "time" : {
+    "start" : 1606704475865,
+    "stop" : 1606704475912,
+    "duration" : 47
+  },
+  "descriptionHtml" : "<h3>关于注册失败的一些测试用例</h3>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1606704474828,
+      "stop" : 1606704474898,
+      "duration" : 70
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1606704475763,
+      "stop" : 1606704475767,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "descriptionHtml" : "<h3>关于注册失败的一些测试用例</h3>",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c172cb38d084df52",
+      "name" : "注册接口的测试数据",
+      "source" : "c172cb38d084df52.csv",
+      "type" : "text/csv",
+      "size" : 252
+    }, {
+      "uid" : "891268c105771dc9",
+      "name" : "log",
+      "source" : "891268c105771dc9.txt",
+      "type" : "text/plain",
+      "size" : 362
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1606704476031,
+      "stop" : 1606704476031,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "注册功能"
+  }, {
+    "name" : "story",
+    "value" : "注册失败"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_mtx_reg"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestReg"
+  }, {
+    "name" : "host",
+    "value" : "wuxueqingdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "31507-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_mtx_reg"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp",
+    "value" : "'用户名格式由 字母数字下划线 2~18 个字符'"
+  }, {
+    "name" : "ids",
+    "value" : "'逆向用例'"
+  }, {
+    "name" : "is_agree_agreement",
+    "value" : "'1'"
+  }, {
+    "name" : "password",
+    "value" : "'123456'"
+  }, {
+    "name" : "type",
+    "value" : "'username'"
+  }, {
+    "name" : "username",
+    "value" : "'#$%'"
+  } ],
+  "links" : [ {
+    "name" : "☝缺陷跟踪列表☝",
+    "url" : "https://blog.csdn.net/adorable_/article/details/110087878",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a0fb7f88541ebc95.json",
+  "parameterValues" : [ "'用户名格式由 字母数字下划线 2~18 个字符'", "'逆向用例'", "'1'", "'123456'", "'username'", "'#$%'" ]
+}
