@@ -14,7 +14,7 @@ class DataBaseHandle():
         '''
         连接数据库初始化
         '''
-        self.ip = '10.8.4.129'
+        self.ip = '10.8.7.179'
         self.username = 'root'
         self.password = '123456'
         self.database = database
