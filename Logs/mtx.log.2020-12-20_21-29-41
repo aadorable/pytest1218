@@ -1,0 +1,3 @@
+2020-12-20 21:29:41,898 INFO [root] [apiLogin.py(__init__:14)] -开始获取登录接口的url
+2020-12-20 21:29:41,900 INFO [root] [apiLogin.py(__init__:16)] -登录接口的url是：http://192.168.1.102/mtx/index.php?s=/index/user/login.html
+2020-12-20 21:29:41,901 INFO [root] [apiLogin.py(login:25)] -开始发起登录请求，请求的参数是{'accounts': 'xueqing', 'pwd': '123456'}，请求头是{'X-Requested-With': 'XMLHttpRequest'}

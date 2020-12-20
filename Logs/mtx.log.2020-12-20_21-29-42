@@ -1,0 +1,25 @@
+2020-12-20 21:29:42,362 INFO [root] [apiLogin.py(login:27)] -响应的结果是{'msg': '登录成功', 'code': 0, 'data': {'body_html': ''}}
+2020-12-20 21:29:42,373 INFO [root] [apiLogin.py(login:25)] -开始发起登录请求，请求的参数是{'accounts': 'xueqing', 'pwd': ''}，请求头是{'X-Requested-With': 'XMLHttpRequest'}
+2020-12-20 21:29:42,442 INFO [root] [apiLogin.py(login:27)] -响应的结果是{'msg': '密码格式 6~18 个字符之间', 'code': -2, 'data': ''}
+2020-12-20 21:29:42,449 INFO [root] [apiLogin.py(login:25)] -开始发起登录请求，请求的参数是{'accounts': '', 'pwd': '123456'}，请求头是{'X-Requested-With': 'XMLHttpRequest'}
+2020-12-20 21:29:42,501 INFO [root] [apiLogin.py(login:27)] -响应的结果是{'msg': '登录账号有误', 'code': -1, 'data': ''}
+2020-12-20 21:29:42,508 INFO [root] [apiLogin.py(login:25)] -开始发起登录请求，请求的参数是{'accounts': 'xueqing', 'pwd': '12345678'}，请求头是{'X-Requested-With': 'XMLHttpRequest'}
+2020-12-20 21:29:42,570 INFO [root] [apiLogin.py(login:27)] -响应的结果是{'msg': '密码错误', 'code': -4, 'data': ''}
+2020-12-20 21:29:42,579 INFO [root] [apiLogin.py(login:25)] -开始发起登录请求，请求的参数是{'accounts': 'luyou', 'pwd': '123456'}，请求头是{'X-Requested-With': 'XMLHttpRequest'}
+2020-12-20 21:29:42,638 INFO [root] [apiLogin.py(login:27)] -响应的结果是{'msg': '帐号不存在', 'code': -3, 'data': ''}
+2020-12-20 21:29:42,645 INFO [root] [apiOrder.py(__init__:15)] -开始获取下订单接口的url
+2020-12-20 21:29:42,645 INFO [root] [apiOrder.py(__init__:17)] -下订单接口的url是：http://192.168.1.102/mtx/index.php?s=/index/buy/add.html
+2020-12-20 21:29:42,645 INFO [root] [apiLogin.py(__init__:14)] -开始获取登录接口的url
+2020-12-20 21:29:42,645 INFO [root] [apiLogin.py(__init__:16)] -登录接口的url是：http://192.168.1.102/mtx/index.php?s=/index/user/login.html
+2020-12-20 21:29:42,645 INFO [root] [apiLogin.py(login_success:40)] -开始发起登录请求，请求的参数是{'accounts': 'xueqing', 'pwd': '123456'}，请求头是{'X-Requested-With': 'XMLHttpRequest'}
+2020-12-20 21:29:42,704 INFO [root] [apiLogin.py(login_success:42)] -响应的结果是{'msg': '登录成功', 'code': 0, 'data': {'body_html': ''}}
+2020-12-20 21:29:42,706 INFO [root] [apiOrder.py(order:33)] -开始发起下订单请求，请求的参数是{'goods_id': 8, 'stock': 1, 'buy_type': 'goods', 'address_id': 51, 'payment_id': 1, 'spec': ''}，请求头是{'X-Requested-With': 'XMLHttpRequest'}
+2020-12-20 21:29:42,808 INFO [root] [apiOrder.py(order:35)] -响应的结果是{'msg': '提交成功', 'code': 0, 'data': {'order': {'id': '146', 'order_no': '20201221052139401691', 'user_id': '89', 'user_note': '', 'express_id': '0', 'express_number': '', 'payment_id': '1', 'status': '1', 'pay_status': '0', 'extension_data': '', 'buy_number_count': '1', 'increase_price': '0.00', 'preferential_price': '0.00', 'price': '356.00', 'total_price': '356.00', 'pay_price': '0.00', 'refund_price': '0.00', 'returned_quantity': '0', 'client_type': 'pc', 'order_model': '0', 'pay_time': '0', 'confirm_time': '1608499299', 'delivery_time': '0', 'cancel_time': '0', 'collect_time': '0', 'close_time': '0', 'comments_time': '0', 'is_comments': '0', 'user_is_comments': '0', 'is_delete_time': '0', 'user_is_delete_time': '0', 'add_time': '1608499299', 'upd_time': '0'}, 'jump_url': 'http://192.168.1.102/mtx/index.php?s=/index/order/pay/id/146.html'}}
+2020-12-20 21:29:42,814 INFO [root] [apiLogin.py(__init__:14)] -开始获取登录接口的url
+2020-12-20 21:29:42,814 INFO [root] [apiLogin.py(__init__:16)] -登录接口的url是：http://192.168.1.102/mtx/index.php?s=/index/user/login.html
+2020-12-20 21:29:42,814 INFO [root] [apiLogin.py(login_success:40)] -开始发起登录请求，请求的参数是{'accounts': 'xueqing', 'pwd': '123456'}，请求头是{'X-Requested-With': 'XMLHttpRequest'}
+2020-12-20 21:29:42,878 INFO [root] [apiLogin.py(login_success:42)] -响应的结果是{'msg': '登录成功', 'code': 0, 'data': {'body_html': ''}}
+2020-12-20 21:29:42,878 INFO [root] [apiOrder.py(__init__:15)] -开始获取下订单接口的url
+2020-12-20 21:29:42,878 INFO [root] [apiOrder.py(__init__:17)] -下订单接口的url是：http://192.168.1.102/mtx/index.php?s=/index/buy/add.html
+2020-12-20 21:29:42,879 INFO [root] [apiOrder.py(order:33)] -开始发起下订单请求，请求的参数是{'goods_id': 8, 'stock': 1, 'buy_type': 'goods', 'address_id': 51, 'payment_id': 1, 'spec': ''}，请求头是{'X-Requested-With': 'XMLHttpRequest'}
+2020-12-20 21:29:42,940 INFO [root] [apiOrder.py(order:35)] -响应的结果是{'msg': '提交成功', 'code': 0, 'data': {'order': {'id': '147', 'order_no': '20201221052140896148', 'user_id': '89', 'user_note': '', 'express_id': '0', 'express_number': '', 'payment_id': '1', 'status': '1', 'pay_status': '0', 'extension_data': '', 'buy_number_count': '1', 'increase_price': '0.00', 'preferential_price': '0.00', 'price': '356.00', 'total_price': '356.00', 'pay_price': '0.00', 'refund_price': '0.00', 'returned_quantity': '0', 'client_type': 'pc', 'order_model': '0', 'pay_time': '0', 'confirm_time': '1608499300', 'delivery_time': '0', 'cancel_time': '0', 'collect_time': '0', 'close_time': '0', 'comments_time': '0', 'is_comments': '0', 'user_is_comments': '0', 'is_delete_time': '0', 'user_is_delete_time': '0', 'add_time': '1608499300', 'upd_time': '0'}, 'jump_url': 'http://192.168.1.102/mtx/index.php?s=/index/order/pay/id/147.html'}}
