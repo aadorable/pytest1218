@@ -1,2 +1,0 @@
-[32mINFO    [0m root:apiReg.py:25 开始发起注册请求，请求的参数是{'accounts': 'data', 'pwd': '123456', 'type': 'username11', 'is_agree_agreement': '1'}，请求头是{'X-Requested-With': 'XMLHttpRequest'}
-[32mINFO    [0m root:apiReg.py:27 响应的结果是{'msg': '注册类型有误', 'code': -1, 'data': ''}

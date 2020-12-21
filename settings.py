@@ -6,7 +6,7 @@
 
 import os
 
-IP = 'http://192.168.1.102'
+IP = 'http://10.8.7.229'
 HEADERS = {'X-Requested-With': 'XMLHttpRequest'}
 ABS_PATH = os.path.abspath(__file__)
 DIR_NAME = os.path.dirname(ABS_PATH)

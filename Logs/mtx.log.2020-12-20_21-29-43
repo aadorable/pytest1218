@@ -1,0 +1,11 @@
+2020-12-20 21:29:43,612 INFO [root] [apiReg.py(__init__:14)] -开始获取注册接口的url
+2020-12-20 21:29:43,613 INFO [root] [apiReg.py(__init__:16)] -注册接口的url是：http://192.168.1.102/mtx/index.php?s=/index/user/reg.html
+2020-12-20 21:29:43,668 INFO [root] [apiReg.py(reg:25)] -开始发起注册请求，请求的参数是{'accounts': 'John', 'pwd': 123456, 'type': 'username', 'is_agree_agreement': 1}，请求头是{'X-Requested-With': 'XMLHttpRequest'}
+2020-12-20 21:29:43,713 INFO [root] [apiReg.py(reg:27)] -响应的结果是{'msg': '注册成功', 'code': 0, 'data': {'msg': '添加成功', 'code': 0, 'data': {'body_html': '', 'user_id': '126'}}}
+2020-12-20 21:29:43,714 INFO [root] [test_mtx_reg.py(test_reg_success:57)] -数据库查询的数据为：(('John', '1af6bb1074cd3886331be2f015cc734c'),)
+2020-12-20 21:29:43,719 INFO [root] [apiReg.py(reg:25)] -开始发起注册请求，请求的参数是{'accounts': '#$%', 'pwd': '123456', 'type': 'username', 'is_agree_agreement': '1'}，请求头是{'X-Requested-With': 'XMLHttpRequest'}
+2020-12-20 21:29:43,773 INFO [root] [apiReg.py(reg:27)] -响应的结果是{'msg': '用户名格式由 字母数字下划线 2~18 个字符', 'code': -2, 'data': ''}
+2020-12-20 21:29:43,782 INFO [root] [apiReg.py(reg:25)] -开始发起注册请求，请求的参数是{'accounts': 'xueqing', 'pwd': '123456', 'type': 'username', 'is_agree_agreement': '1'}，请求头是{'X-Requested-With': 'XMLHttpRequest'}
+2020-12-20 21:29:43,832 INFO [root] [apiReg.py(reg:27)] -响应的结果是{'msg': '账号已存在', 'code': -10, 'data': ''}
+2020-12-20 21:29:43,841 INFO [root] [apiReg.py(reg:25)] -开始发起注册请求，请求的参数是{'accounts': 'data', 'pwd': '123456', 'type': 'username11', 'is_agree_agreement': '1'}，请求头是{'X-Requested-With': 'XMLHttpRequest'}
+2020-12-20 21:29:43,895 INFO [root] [apiReg.py(reg:27)] -响应的结果是{'msg': '注册类型有误', 'code': -1, 'data': ''}
